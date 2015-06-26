@@ -1,0 +1,34 @@
+******What is/are the problem/s you want to solve? Please provide background based on research. ******
+
+There are more than 40+ million people visiting NYC every year. That is average of 100,000+ people visiting NYC every day.
+http://www.nycgo.com/articles/nyc-statistics-page
+Daily average cost per person to travel to NYC is approximately $239 dollars.
+http://www.budgetyourtrip.com/united-states-of-america/Cities
+We will create a NYC app tour, this app will help visitors with low traveling budgets as low as $120 a day get the most out of their money by providing cheap and free attractions in NYC area.
+There are some apps that have already done this kind of tour.
+http://www.urbanwonderer.com/ 
+https://itunes.apple.com/us/app/new-york-map-and-walks/id350105605?mt=8
+ http://www.nycgo.com/articles/best-nyc-smartphone-apps
+However, we will design our app called “Affordable NYC Tour” with unique features that help low budget travelers to have the best experience in NYC.
+
+******Who are the users you are targeting? Please use a Persona to describe your users and draw a picture of your target user.******
+
+Affordable NYC Tour is for James. James is a college student. During summer or couple weeks off between semesters, James wants to travel to NYC to explore the city. However, James does not have much money. With a tie budget of $120/day in NYC, James wants to explore the city as much as he can. Affordable NYC Tour will help James utilize all the tools he needs to get the most out of his $120. 
+
+******What are the major features of the solution? List the features.******
+Affordable NYC Tour will show all free attractions and how to get there by least cost of transportation. 
+Affordable NYC Tour will show cheap and tasty foods around NYC
+
+******How is this solution unique? How does it relate to existing solutions on the market? What are 5 solutions similar or related to what you want to do in the Google Play Store. Do the research and know that you probably not reinventing the wheel!******
+
+Our app is unique in the way that it targets low budget travelers. Other apps give general guide tours.
+Our app will help low income people know exactly what to do with the least cost when they visit NYC
+
+******What technologies, APIs etc will you be using to develop this solution? Provide links and explanations.******
+
+We will use Google Map API for transportation and direction guides 
+https://developers.google.com/android/guides/api-client
+
+We will use google places API for restaurant and attraction guides.
+https://developers.google.com/places/android/
+ 
