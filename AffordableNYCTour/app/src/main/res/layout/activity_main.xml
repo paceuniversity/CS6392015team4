@@ -173,7 +173,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=">"
-        android:id="@+id/button6"
+        android:id="@+id/budget_button"
         android:layout_below="@+id/textView4"
         android:layout_alignEnd="@+id/textView4"
         android:background="#ffffbe83" />
@@ -207,5 +207,14 @@
         android:layout_alignEnd="@+id/textView6"
         android:background="#ffffbe83"
         android:clickable="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Budget"
+        android:id="@+id/budget_button_test"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

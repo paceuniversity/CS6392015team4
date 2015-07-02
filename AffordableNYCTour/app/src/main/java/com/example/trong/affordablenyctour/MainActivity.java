@@ -1,9 +1,16 @@
 package com.example.trong.affordablenyctour;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
+
+import com.example.hp.affordablenyctour.R;
+import com.example.hp.affordablenyctour.BudgetActivity;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -12,8 +19,35 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
 
+        Button budgetButtonTest = (Button) findViewById(R.id.budget_button_test);
+        budgetButtonTest.setOnClickListener(new View.OnClickListener() {
+            //!<  Go to budget activity.
+            @Override
+            public void onClick(View v) {
+                Intent budgetIntent = new Intent(MainActivity.this, BudgetActivity.class);
+                Toast.makeText(getBaseContext(), "Clicked button!", Toast.LENGTH_SHORT).show();
+//                Bundle budgetIntentBundle = new Bundle();
+//                budgetIntentBundle.putString("", "");     //  Transfer info from APP to the budget activity with bundle on intent.
+//                budgetIntent.putExtras(budgetIntentBundle);
+                startActivity(budgetIntent);
+            }
+        });
+
+        Button budgetButton = (Button) findViewById(R.id.budget_button);
+        budgetButton.setOnClickListener(new View.OnClickListener() {
+            //!<  Go to budget activity.
+            @Override
+            public void onClick(View v) {
+                Intent budgetIntent = new Intent(MainActivity.this, BudgetActivity.class);
+                Toast.makeText(getBaseContext(), "Clicked button!", Toast.LENGTH_SHORT).show();
+//                Bundle budgetIntentBundle = new Bundle();
+//                budgetIntentBundle.putString("", "");     //  Transfer info from APP to the budget activity with bundle on intent.
+//                budgetIntent.putExtras(budgetIntentBundle);
+                startActivity(budgetIntent);
+            }
+        });
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
