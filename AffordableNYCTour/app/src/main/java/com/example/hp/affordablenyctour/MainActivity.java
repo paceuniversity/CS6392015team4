@@ -1,9 +1,13 @@
 package com.example.hp.affordablenyctour;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -13,6 +17,20 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Button budgetButton = (Button) findViewById(R.id.budget_button_test);
+        budgetButton.setOnClickListener(new View.OnClickListener() {
+            //!<  Go to budget activity.
+            @Override
+            public void onClick(View v) {
+                Log.v("BUDGET", "Clicked test button");
+//                Toast.makeText(getBaseContext(), "Clicked button!", Toast.LENGTH_SHORT).show();
+                Intent budgetIntent = new Intent(MainActivity.this, BudgetActivity.class);
+//                Bundle budgetIntentBundle = new Bundle();
+//                budgetIntentBundle.putString("", "");     //  Transfer info from APP to the budget activity with bundle on intent.
+//                budgetIntent.putExtras(budgetIntentBundle);
+                startActivity(budgetIntent);
+            }
+        });
     }
 
     @Override

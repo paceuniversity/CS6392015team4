@@ -1,7 +1,46 @@
 <resources>
     <string name="app_name">Affordable NYC Tour</string>
 
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_budget">Budget</string>
+    <string name="hello_world">Hello World!</string>
+
+    <string-array name="budgetList">
+        <item>Example Selected Item 1 (~$30)</item>
+        <item>Example Selected Item 2 (~$40)</item>
+        <item>Wicked - Broadway (~$150 * 2 people)</item>
+        <item>Intrepid (~$50?)</item>
+        <item>Museum of Natural History (FREE)</item>
+        <item>Example Selected Item 1 (~$30)</item>
+        <item>Example Selected Item 4 (~$40)</item>
+        <item>Example Selected Item 5 (~$40)</item>
+        <item>Example Selected Item 6 (~$40)</item>
+        <item>Example Selected Item 7 (~$40)</item>
+        <item>Example Selected Item 8 (~$40)</item>
+        <item>Example Selected Item 99 (~$40)</item>
+        <item>Example Selected Item 0 (~$40)</item>
+        <item>Example Selected Item 12 (~$40)</item>
+        <item>Example Selected Item 3 (~$40)</item>
+        <item>Example Selected Item 7 (~$40)</item>
+        <item>Example Selected Item 45 (~$40)</item>
+        <item>Example Selected Item 9 (~$40)</item>
+        <item>Example Selected Item 12 (~$40)</item>
+        <item>Example Selected Item 44 (~$40)</item>
+    </string-array>
+
+    <string-array name="detailsList">
+        <item>Location:  40.7903° N, 73.9597° W</item>
+        <item>Cost:  $30.00 per person</item>
+        <item>WebSite:   https://www.google.com/</item>
+        <item>Rating:    Based on some scale that probably exists.</item>
+        <item>
+            Comments:  This is a great place to put information about a perticular item that we\'ve selected
+            and I\'m nore really sure what else I\'d like to say on the subject. You should click these items
+            to see what happens.
+        </item>
+        <item>Reviews:  List reviews here, perhaps. </item>
+
+    </string-array>
+    <string name="title_activity_details">DetailsActivity</string>
 
 </resources>
